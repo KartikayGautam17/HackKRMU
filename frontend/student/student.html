@@ -9,13 +9,13 @@
     <linK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <section class="navbar-content">
-        <i class="fa fa-bars"></i> 
+    <div class="navbar-content"> 
         <div class="navbar-fixed">
             <img class="logo" src="https://institute.careerguide.com/wp-content/uploads/2022/08/K.R._Mangalam_University_logo.svg_.png">
             <h1>STUDENT</h1>
             <h3>kartikay gautam</h3>        
         </div>
+        <i class="fa fa-bars"></i>
         <div id = "verticalnavbar" class="vertnavbar-fixed">
             <div class="Profile">Profile</div>
             <div class="Redeem">Redeem</div>
@@ -25,19 +25,18 @@
             <div class="Logout">Logout</div>
         </div>
         <i class="fa fa-times"></i>
-    </section>
-    <section class="dashboard-content">
         <div class="page_dashboard_container">
-            <div class="page_profile_leaderboards_container_mini">
-                <div class="page_profile"></div>
-                <div class="page_leaderboards"></div>
-            </div>
-            <div class="page_points_container">                
-                <div class="page_points_records"></div>
-                <div class="page_redeem"></div>
-            </div>
+        <div class = "flex-cards">
+            <div id="o1" class="1">Profile</div>
+            <div id="o2" class="2">Leaderboard</div>
         </div>
-    </section>
-    <script src="student.js"></script>
+        <div class="flex-cards-2">
+            <div id = "o3" class="3">Point Records</div>
+            <div id = "o4" class="4">Redeem</div>
+        </div>
+    </div>
+    </div>    
+    <script src="navbar.js"></script>
+    <script src="dashboard.js"></script>
 </body>
 </html>
