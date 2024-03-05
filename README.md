@@ -1,2 +1,2 @@
-# HackKRMU
-ELITES - Reward Points Grading System
+# ELITES - Reward Points Grading System
+# HackKRMU Project Idea
