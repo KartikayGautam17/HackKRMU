@@ -103,6 +103,7 @@ div.vertnavbar-fixed{
     margin:50px 0;
 }
 #o3,#o2,#o1,#o4{
+    cursor:pointer;
     width:40%;
     border:2px solid black;
     padding:30px;
