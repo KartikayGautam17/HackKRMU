@@ -1,0 +1,56 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Bahnschrift';
+    overflow:hidden;
+}
+
+:root{
+    --main-container-size:90%;
+    --black:#1D2228;
+    --orange:#FB8122;
+    --grey:#E1E2E2;
+    --navbar-height:100px;
+}
+
+section.main-content{
+    width:100%;
+    height:100vh;
+    margin:0 auto;
+    position: relative;
+}
+
+#menu{
+    position:fixed;
+    top:30px;
+    left:30px;
+    cursor:pointer;
+    width:30px;
+    height:40px;
+    color:white;
+}
+
+div.navbar-fixed{
+    height:var(--navbar-height);
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+    padding-left:7.5%;
+    padding-right:7.5%;
+    color:white;
+    background-color:var(--black)
+}
+
+img.logo{
+    width:60px;
+    height:60px;    
+}
+div.navbar-fixed h1{
+    text-transform: uppercase;
+}
+div.navbar-fixed h3{
+    text-transform: capitalize;
+}
