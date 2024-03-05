@@ -12,6 +12,7 @@
     --orange:#FB8122;
     --grey:#E1E2E2;
     --navbar-height:100px;
+    --bar-icon-top:40px;
 }
 
 section.main-content{
@@ -21,14 +22,19 @@ section.main-content{
     position: relative;
 }
 
-#menu{
-    position:fixed;
-    top:30px;
-    left:30px;
+.fa.fa-bars{
+    position:absolute;
+    top:var(--bar-icon-top);
+    left:40px;
     cursor:pointer;
-    width:30px;
-    height:40px;
     color:white;
+}
+.fa.fa-times{
+    cursor:pointer;
+    position:absolute;
+    top:30px;
+    left:28%;
+    visibility: hidden;
 }
 
 div.navbar-fixed{
@@ -41,7 +47,7 @@ div.navbar-fixed{
     padding-left:7.5%;
     padding-right:7.5%;
     color:white;
-    background-color:var(--black)
+    background-color:var(--black);
 }
 
 img.logo{
@@ -54,3 +60,26 @@ div.navbar-fixed h1{
 div.navbar-fixed h3{
     text-transform: capitalize;
 }
+div.vertnavbar-fixed{
+    color:white;
+    width:30%;
+    position: absolute;
+    top:0px;
+    left:-50%;
+    display:flex;
+    flex-direction: column;
+    background:var(--orange);
+    height:100vh;
+    justify-content: flex-start;
+    padding:60px 20px 50px 20px;
+    text-align: left;
+    transition:1s;
+}
+.Profile,.Redeem,.Point.Records,.Dashboard,.Leaderboards,.Logout{
+    font-size:25px;
+    font-weight: 100;
+    border:none;
+    margin:30px 20px;
+    cursor:pointer;
+}
+
